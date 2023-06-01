@@ -2,5 +2,5 @@
 - Proyecto Final Guayerd
 
 # Indice
-- HTML[index.html]
-- CSS[css/]
+- [index.html](HTML)
+- [css/](CSS)
