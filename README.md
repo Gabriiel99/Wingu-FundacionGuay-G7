@@ -1,5 +1,5 @@
 # Wingu-FundacionGuay
-- Proyecto Final Guayerd
+Proyecto Final Guayerd
 
 # Indice
 - [HTML](index.html)
