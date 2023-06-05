@@ -22,7 +22,6 @@ body {
     font-size: 25px;
     margin-bottom: 42%;
   }
-=======
 
 
 body{
@@ -70,3 +69,30 @@ select {
     left: -11vw;
 }
 
+/*BUTTON*/
+option{
+    margin-bottom: 5px;
+
+}
+option:hover{
+    background-color: #dddee0;
+}
+
+
+.button{
+    height: 10vh;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    color: #37404e;
+    border-radius: 10px;
+    font-size: 25px;
+    height: 10vh;
+    width: 50%;
+    background-color: #bfebeb;
+}
+/*---------------------*/
