@@ -115,7 +115,6 @@
 
       What do you want to donate?<select
         id="00N8b00000HbiEs"
-        multiple="multiple"
         name="00N8b00000HbiEs"
         title="What do you want to donate?"
       >
@@ -179,18 +178,15 @@
       ></textarea
       ><br />
 
-      Privacity Consent<input
-        class="priv"
-        id="00N8b00000HbhJ3"
-        name="00N8b00000HbhJ3"
-        type="checkbox"
-        value="1"
-      /><br />
+      <div class="checkbox-container">
+        <input type="checkbox" id="privacy-checkbox" />
+        <label for="privacy-checkbox">Privacy Consent</label>
+      </div>
+      <br />
 
       <div class="button">
-        <input type="submit" name="submit">
+        <input type="submit" name="submit" />
       </div>
-      
     </form>
   </body>
 </html>
