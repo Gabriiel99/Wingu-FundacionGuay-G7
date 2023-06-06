@@ -1,73 +1,72 @@
 body {
-    background-image: url("/image/wingu-logo.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    font-family: 'Nunito', sans-serif;
-    padding: 0;
-    text-align: center;
-    margin: 0;
-  }
-  
+  background-image: url("https://winguweb.org/wp-content/uploads/2022/11/wingu-og.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  font-family: "Nunito", sans-serif;
+  padding: 0;
+  text-align: center;
+  margin: 0;
+}
 
-  h1 {
-    font-size: 25px;
-    margin-bottom: 40%;
-  }
-  
-  input[type="text"],
-  textarea,
-  select {
-    background: rgba(255, 255, 255, 0.1);
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 16px;
-    height: auto;
-    margin: 0;
-    padding: 10px;
-    width: 100%;
-    background-color: #dfe6e6;
-    color: #646c79;
-    margin-bottom: 20px;
-    margin-top: 5px;
-  }
-  
-  input[type="email"],
-  input[type="tel"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  textarea {
-    height: 100px;
-  }
-  
-  .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .checkbox-container {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-  }
-  
-  .checkbox-container input[type="checkbox"] {
-    margin-right: 5px;
-    width: 14px;
-    height: 14px;
-  }
-  
-  .checkbox-container label {
-    margin-bottom: 0;
-  }
+h1 {
+  font-size: 25px;
+  margin-bottom: 40%;
+}
+
+input[type="text"],
+textarea,
+select {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: #dfe6e6;
+  color: #646c79;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 100px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin-right: 5px;
+  width: 14px;
+  height: 14px;
+}
+
+.checkbox-container label {
+  margin-bottom: 0;
+}
