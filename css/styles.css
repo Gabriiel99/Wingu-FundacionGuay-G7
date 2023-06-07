@@ -1,5 +1,4 @@
 
-
 body {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1g9VIoe4XAS5tqmjyDksiBTavaIODC-lfUg&usqp=CAU");
   background-repeat: no-repeat;
@@ -8,7 +7,6 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
   font-family: "Nunito", sans-serif;
   color: #333;
- 
 }
 
 label {
@@ -18,6 +16,7 @@ label {
 
 form {
   max-width: 450px;
+
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
@@ -30,6 +29,7 @@ form {
 input[type="text"],
 textarea,
 select {
+
     background: rgba(255,255,255,0.1);
     border: none;
     font-size: 16px;
@@ -41,6 +41,7 @@ select {
     color: #646c79;
     margin-bottom: 30px;
     margin-top: 5px;
+
 }
 
 input[type="email"],
@@ -53,7 +54,9 @@ input[type="tel"] {
 }
 
 textarea {
+
   height: 45px;
+
 }
 
 .container {
@@ -88,6 +91,7 @@ option {
 option:hover {
   background-color: #dddee0;
 }
+
 
 .content span{
   color: red;
