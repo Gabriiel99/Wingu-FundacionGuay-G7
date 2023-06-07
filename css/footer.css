@@ -1,0 +1,21 @@
+
+footer{
+    background-color: rgba(228, 228, 228, 0.37);
+    margin-top: 30px;
+    height: 4em;
+}
+
+footer img{
+    width: 15px;
+    height: 15px;
+}
+footer h5{
+    font-size:small;
+}
+.footer{
+    width: 20%;
+    display: flex;
+    align-items:flex-start  ;
+    justify-content:space-around;
+    padding-top: 10px;
+}

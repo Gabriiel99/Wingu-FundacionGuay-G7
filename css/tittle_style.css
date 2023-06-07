@@ -1,0 +1,31 @@
+
+
+.title{
+    display: block;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .title img{
+    width: 100%;
+
+  }
+  .title h1{
+    color: #151325;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive;
+  font-family: 'Geologica', sans-serif;
+  font-family: 'PT Sans', sans-serif;
+  letter-spacing: 1px;
+  }
+  .title h5{
+    font-size: medium;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
