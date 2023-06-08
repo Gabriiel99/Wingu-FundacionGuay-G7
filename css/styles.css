@@ -27,6 +27,7 @@ form {
 
 
 input[type="text"],
+     [type="email"],
 textarea,
 select {
 
@@ -44,7 +45,6 @@ select {
 
 }
 
-input[type="email"],
 input[type="tel"] {
   width: 100%;
   padding: 10px;
@@ -118,6 +118,17 @@ option:hover {
 }
 .check:checked ~ .content.contentEn{
   display: block;
+}
+
+.campo-error {
+  background-color: #c7d9ef;
+  border-radius: 5px;
+  color: rgb(212, 58, 79);
+  display: none;
+  margin-bottom: 10px;
+  max-width: max-content;
+  padding: 5px;
+  
 }
 
 

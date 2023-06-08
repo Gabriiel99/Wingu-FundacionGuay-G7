@@ -1,20 +1,26 @@
 
 /*BUTTON*/
   
-  .button {
-    height: 10vh;
-    width: 100%;
+  button {
+    height: 7vh;
+    width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  input {
+  #enviar-btn{
     color: white;
     font-size: 20px;
     padding: 10px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    background-color: #4caf50;
+    background-color: #018e06;
+    position: relative;
+    margin: 0 auto;
+  }
+
+  #enviar-btn:hover {
+    background-color: rgb(20, 205, 100); 
   }

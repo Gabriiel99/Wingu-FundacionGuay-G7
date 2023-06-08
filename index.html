@@ -70,14 +70,14 @@
 
 
     <div class="content contentEs">
-      <form
+      <form id="registro-form"
       action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
       method="POST"
     >
 
     <div class="title">
       <img src="./image/logo.png" alt="logo">
-      <h1>Formulario de Donación</h1>
+      <h1 id="form-title">Formulario de Donación</h1>
       <h5>Con tu contribucion, podemos continuar generando un impacto social a través de la tecnología en toda Latinamerica.</h5>
 
     </div>
@@ -110,6 +110,8 @@
         type="text"
         required
       /><br />
+      <div id="nombre-error" class="campo-error"></div>
+      
 
       <label for="last_name">Apellido <span>*</span></label
       ><input
@@ -120,6 +122,8 @@
         type="text"
         required
       /><br />
+      <div id="apellido-error" class="campo-error"></div>
+      
 
       <label for="email">Email <span>*</span></label
       ><input
@@ -127,9 +131,11 @@
         maxlength="80"
         name="email"
         size="20"
-        type="text"
+        type="email"
         required
       /><br />
+      <div id="email-error" class="campo-error"></div>
+      
 
       <label for="phone">Celular <span>*</span></label
       ><input
@@ -140,6 +146,8 @@
         type="text"
         required
       /><br />
+      <div id="telefono-error" class="campo-error"></div>
+      
 
       <label for="country">Pais <span>*</span></label
       ><input
@@ -235,9 +243,10 @@
       </div>
       <br />
 
-      <div class="button">
-        <input type="submit" name="submit" />
-      </div>
+      <div>
+        <br>
+        <button type="submit" id="enviar-btn">Enviar</button>
+    </div>
     </form>
 
 
@@ -249,14 +258,14 @@
     </footer>
     </div>
     <div class="content contentEn">
-      <form
+      <form id="registro-form"
       action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
       method="POST"
     >
 
     <div class="title">
       <img src="./image/logo.png" alt="logo">
-      <h1>Donation Form</h1>
+      <h1 id="form-title">Donation Form</h1>
       <h5>With your contribution we can continue to enhance social impact through technology throughout Latin America.</h5>
 
     </div>
@@ -290,6 +299,7 @@
         type="text"
         required
       /><br />
+      <div id="nombre-error" class="campo-error"></div>
 
       <label for="last_name">Last Name</label
       ><input
@@ -300,6 +310,7 @@
         type="text"
         required
       /><br />
+      <div id="apellido-error" class="campo-error"></div>
 
       <label for="email">Email</label
       ><input
@@ -307,9 +318,10 @@
         maxlength="80"
         name="email"
         size="20"
-        type="text"
+        type="email"
         required
       /><br />
+      <div id="email-error" class="campo-error"></div>
 
       <label for="phone">Phone</label
       ><input
@@ -320,6 +332,7 @@
         type="text"
         required
       /><br />
+      <div id="telefono-error" class="campo-error"></div>
 
       <label for="country">Country</label
       ><input
@@ -415,9 +428,10 @@
       </div>
       <br />
 
-      <div class="button">
-        <input type="submit" name="submit" />
-      </div>
+      <div>
+        <br>
+        <button type="submit" id="enviar-btn">Enviar</button>
+    </div>
     </form>
 
 
@@ -430,6 +444,7 @@
     </footer>
     </div>
   </div>
-
+ <script src="js/script.js"></script>
+ 
   </body>
 </html>
