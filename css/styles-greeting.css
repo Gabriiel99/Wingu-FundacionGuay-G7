@@ -70,3 +70,31 @@ textarea {
 .checkbox-container label {
   margin-bottom: 0;
 }
+
+@media only screen and (min-width:360px) and (max-width:800px){
+  h1{
+    height: 100%;
+    font-size: small;
+  }
+  body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1g9VIoe4XAS5tqmjyDksiBTavaIODC-lfUg&usqp=CAU");
+  }
+}
+
+@media only screen and (min-width:800px) and (max-width:1080px){
+  h1{
+    font-size: medium;
+    height: 100%;
+  }
+  body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1g9VIoe4XAS5tqmjyDksiBTavaIODC-lfUg&usqp=CAU");
+  }
+  
+}
+
+@media only screen and (min-width:1080px) and (max-width:2600px){
+ h1{
+  height: 100%;
+
+ } 
+}
