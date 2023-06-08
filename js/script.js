@@ -1,108 +1,3 @@
-/*const formulario = document.getElementById('registro-form');
-const nombreInput = document.getElementById('first_name');
-const apellidoInput = document.getElementById('last_name');
-const emailInput = document.getElementById('email');
-const telefonoInput = document.getElementById('phone');
-
-nombreInput.addEventListener('input', validarCampoNombre);
-apellidoInput.addEventListener('input', validarCampoApellido);
-emailInput.addEventListener('input', validarCampoEmail);
-telefonoInput.addEventListener('input', validarCampoTelefono);
-
-function mostrarErrorCampo(campo, mensaje) {
-    const campoError = document.getElementById(campo);
-    campoError.innerHTML = mensaje;
-    campoError.style.display = 'block';
-}
-
-function ocultarErrorCampo(campo) {
-    const campoError = document.getElementById(campo);
-    campoError.innerHTML = '';
-    campoError.style.display = 'none';
-}
-
-function validarCampoNombre() {
-    const nombre = nombreInput.value.trim();
-    const nombreRegex = /^[a-zA-Z]+$/;
-
-    if (nombre === '') {
-        mostrarErrorCampo('nombre-error', 'Por favor, ingrese su nombre.');
-    } else if (!nombreRegex.test(nombre)) {
-        mostrarErrorCampo('nombre-error', 'El nombre solo debe contener letras.');
-    } else {
-        ocultarErrorCampo('nombre-error');
-    }
-}
-
-function validarCampoApellido() {
-    const apellido = apellidoInput.value.trim();
-    const apellidoRegex = /^[a-zA-Z]+$/;
-
-    if (apellido === '') {
-        mostrarErrorCampo('apellido-error', 'Por favor, ingrese su apellido.');
-    } else if (!apellidoRegex.test(apellido)) {
-        mostrarErrorCampo('apellido-error', 'El apellido solo debe contener letras.');
-    } else {
-        ocultarErrorCampo('apellido-error');
-    }
-}
-
-function validarCampoEmail() {
-    const email = emailInput.value.trim();
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-    if (email === '') {
-        mostrarErrorCampo('email-error', 'Por favor, ingrese su correo electrónico.');
-    } else if (!emailRegex.test(email)) {
-        mostrarErrorCampo('email-error', 'Por favor, ingrese una dirección de correo electrónico válida.');
-    } else {
-        ocultarErrorCampo('email-error');
-    }
-}
-
-function validarCampoTelefono() {
-    const telefono = telefonoInput.value.trim();
-    const telefonoRegex = /^[0-9]+$/;
-
-    if (telefono !== '' && !telefonoRegex.test(telefono)) {
-        mostrarErrorCampo('telefono-error', 'Por favor, ingrese un número de teléfono válido.');
-    } else {
-        ocultarErrorCampo('telefono-error');
-    }
-}
-
-function validarCampos(event) {
-    event.preventDefault();
-
-    // Validar los campos restantes
-    validarCampoNombre();
-    validarCampoApellido();
-    validarCampoEmail();
-    validarCampoTelefono();
-
-    // Verificar si hay errores en los campos
-    const camposError = document.querySelectorAll('.campo-error');
-    let tieneErrores = false;
-
-    camposError.forEach((campo) => {
-        if (campo.style.display === 'block') {
-            tieneErrores = true;
-        }
-    });
-
-    // Si hay errores, no se envía el formulario
-    if (tieneErrores) {
-        return;
-    }
-
-    // Si todos los campos son válidos, enviar el formulario
-    formulario.submit();
-}
-
-if (formulario) {
-    formulario.addEventListener('submit', validarCampos);
-} */
-
 const formulario = document.getElementById('registro-form');
 const nombreInput = document.getElementById('first_name');
 const apellidoInput = document.getElementById('last_name');
@@ -180,13 +75,13 @@ function validarCampoTelefono() {
 function validarCampos(event) {
   event.preventDefault();
 
-  // Validar los campos restantes
+  
   validarCampoNombre();
   validarCampoApellido();
   validarCampoEmail();
   validarCampoTelefono();
 
-  // Verificar si hay errores en los campos
+  // Verifico si hay errores en los campos
   const camposError = document.querySelectorAll('.campo-error');
   let tieneErrores = false;
 
